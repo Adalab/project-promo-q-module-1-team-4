@@ -134,7 +134,10 @@ html  {
     top: 100%;
     transform: rotate(45deg);
 } 
- 
+
+.team .margin-leader {
+    margin: 2rem auto;
+}
 
 
 /* -----------STRENGTHS & WEAKNESSES: BLANCA */
@@ -585,6 +588,7 @@ color: #b8b8b9;
    
     /* ------RESPONSIVE YAIZA */ 
     
+   
     .rectangle-hero{
         width: 44%;
         opacity: 0.8;
@@ -602,13 +606,18 @@ color: #b8b8b9;
     /* ------RESPONSIVE SANDRA */  
 
     .team .text {
-        max-width: 50%;
+        max-width: 60%;
         margin: 0 auto;
     }
 
     
     /* ------RESPONSIVE BLANCA */
     
+    .strengths,
+   .weaknesses {
+        max-width: 40rem;
+   }
+   
     .main .strengths-weaknesses .margin-leader {
         width: 80%;
         margin: 0 auto 3rem;
@@ -631,8 +640,8 @@ color: #b8b8b9;
     }
     
     .person {
-        margin: 2rem auto;
-        max-width: 90rem;
+        margin: 0 auto;
+        max-width: 80rem;
     }
 
     .person .description{
@@ -646,6 +655,10 @@ color: #b8b8b9;
         
     .photo {
         transform: scale(1.4) translate(0, 1.2rem);
+    }
+
+    .title-people {
+        line-height: 6rem;
     }
 
 
